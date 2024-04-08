@@ -19,8 +19,8 @@ export default class Product {
     name: string,
     description: string,
     type: product_type,
-    isVirtual: boolean,
-    isVariant: boolean
+    isVirtual: boolean = false,
+    isVariant: boolean = false
   ) {
     this.id = id;
     this.name = name;
